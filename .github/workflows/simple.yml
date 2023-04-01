@@ -11,4 +11,5 @@ jobs:
       - name: Multiline script
         run: |
           node -v 
-          npmv -v 
+          npm -v
+          cat /etc/os-release
