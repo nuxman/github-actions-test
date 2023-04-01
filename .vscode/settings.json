@@ -1,24 +1,24 @@
 {
-  'editor.tabSize': 2,
-  'editor.formatOnSave': true,
-  'editor.wordWrap': 'on',
-  'editor.fontSize': 14,
-  'editor.zoomLevel': 4,
-  'editor.fontFamily': "Consolas, 'Courier New', monospace",
-  'editor.defaultFormatter': 'esbenp.prettier-vscode',
-  'workbench.colorTheme': 'Default Dark+',
-  'workbench.statusBar.visible': false,
-  'workbench.activityBar.visibel': false,
-  'gitlens.currentLine.enabled': false,
-  'files.exclude':
-    {
-      '**/.git': true,
-      '**/.svn': true,
-      '**/.hg': true,
-      '**/CVS': true,
-      '**/.DS_Store': true,
-    },
-  'terminal.integrated.fontSize': 14,
-  'terminal.integrated.fontWeight': '500',
-  'terminal.integrated.fontWeightBold': '600',
+    "editor.tabSize": 2,  
+    "editor.formatOnSave": true,  
+    "editor.wordWrap": "on",  
+    "editor.fontSize": 14,  
+    "editor.zoomLevel": 4,
+    "editor.fontFamily": "Consolas, 'Courier New', monospace",  
+    "editor.defaultFormatter": "esbenp.prettier-vscode",  
+    "workbench.colorTheme": "Default Dark+",  
+    "workbench.statusBar.visible": false,
+    "workbench.activityBar.visibel": false,
+    "gitlens.currentLine.enabled": false,
+    "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true
+    },    
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontWeight": "500",
+    "terminal.integrated.fontWeightBold": "600"
 }
+  
