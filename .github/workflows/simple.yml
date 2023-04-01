@@ -7,9 +7,15 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - name: echo a string
-        run: eccho "Isso é um teste"
+        run: echo "Isso é um teste"
       - name: Multiline script
         run: |
           node -v 
           npm -v
           cat /etc/os-release
+      - name: Python Command
+        run: |
+          import platform
+          print(platform.processor())
+        shell: python
+
